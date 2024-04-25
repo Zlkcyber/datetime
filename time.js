@@ -30,5 +30,5 @@ async function makeCommit() {
 // Initial commit
 makeCommit();
 
-// Update the file every hour
-setInterval(makeCommit, 1800000); 
+// Update the file 
+setInterval(makeCommit, 1000000); 
